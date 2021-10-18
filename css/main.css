@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #adb9b9; }
+  body .icons {
+    width: 800px;
+    margin: 200px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    body .icons .icon {
+      width: 100px;
+      height: 100px;
+      border-radius: 20px;
+      background-color: #fff;
+      margin: 20px;
+      padding: 25px 0;
+      transition: 0.5s all linear; }
+      body .icons .icon i {
+        font-size: 48px;
+        transition: 0.1s all linear; }
+      body .icons .icon:hover {
+        cursor: pointer;
+        background-color: blue;
+        transform: rotate(15deg); }
+      body .icons .icon:hover i {
+        color: #fff;
+        transform: scale(1.4); }
+    body .icons .icon:nth-child(1) {
+      color: blue; }
+    body .icons .icon:nth-child(2) {
+      color: #333fec; }
+    body .icons .icon:nth-child(3) {
+      color: #ec6a3b; }
+    body .icons .icon:nth-child(4) {
+      color: #af4f9f; }
+    body .icons .icon:nth-child(5) {
+      color: rgba(0, 0, 255, 0.774); }
+
+/*# sourceMappingURL=main.css.map */
